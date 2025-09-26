@@ -5,6 +5,7 @@ import Hero from './Components/Hero';
 import FeatureDestination from './Components/FeatureDestination';
 import Features from './Components/Features';
 import GalleryComp from './Components/GalleryComp';
+import Banner  from './Components/Banner';
 import ContactComp from './Components/ContactComp';
 import ScrollToTop from './Components/ScrollToTop';
 import Footer from './Components/Footer';
@@ -32,6 +33,7 @@ function App() {
               <FeatureDestination />
               <Features />
               <GalleryComp />
+              <Banner/>
               <ContactComp />
             </>
           } />

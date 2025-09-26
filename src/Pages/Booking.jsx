@@ -52,7 +52,7 @@ const Booking = () => {
         >
           <option value="">Select Tour</option>
           <option value="Bali">Bali</option>
-          <option value="eyLand">Land</option>
+          <option value="Disneyland">Disneyland</option>
           <option value="Greece">Greece</option>
           <option value="India">India</option>
           <option value="Paris">Paris</option>

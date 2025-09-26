@@ -61,7 +61,7 @@ const Hero = () => {
       </Slider>
 
       {/* Search Box */}
-      <div className='hidden lg:flex absolute inset-x-0 bottom-[10%] justify-center z-10'>
+      <div className='hidden lg:flex absolute inset-x-0 bottom-[20%] justify-center z-10'>
         <div className='bg-white border border-gray-300 shadow-lg rounded-md w-[1050px] p-4 flex gap-3'>
           <div className='grid gap-5 grid-cols-4 flex-grow'>
             <div className='flex flex-col gap-2'>

@@ -12,11 +12,6 @@
 - **Responsive Design**: Optimized for desktop, tablet, and mobile devices.  
 - **User-Friendly Navigation**: Smooth scrolling and interactive menus.  
 
----
-
-## 🖥️ Demo
-
-Check out the live demo here: [WonderBloom Website](https://trip-buddy-three.vercel.app/)  
 
 ---
 

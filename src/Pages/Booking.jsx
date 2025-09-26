@@ -10,12 +10,22 @@ const Booking = () => {
     notes: ''
   });
 
+  // Get today's date in yyyy-mm-dd format
+  const today = new Date().toISOString().split('T')[0];
+
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // Extra validation: prevent booking for past dates
+    if (form.date < today) {
+      alert("You cannot book for past dates.");
+      return;
+    }
+
     alert(`Thank you ${form.name}! Your booking for ${form.tour} is received.`);
     console.log(form);
     setForm({ name: '', email: '', tour: '', guests: 1, date: '', notes: '' });
@@ -60,7 +70,6 @@ const Booking = () => {
           <option value="Tokyo">Tokyo</option>
           <option value="Tomorrowland">Tomorrowland</option>
           <option value="Venice">Venice</option>
-          
         </select>
         <input
           type="number"
@@ -76,6 +85,7 @@ const Booking = () => {
           name="date"
           value={form.date}
           onChange={handleChange}
+          min={today}  // Disable past dates
           className="border p-2 rounded"
           required
         />
@@ -90,7 +100,7 @@ const Booking = () => {
           type="submit"
           className="bg-teal-500 text-white px-4 py-2 rounded hover:bg-pink-700 transition-colors duration-300"
         >
-        Book Now
+          Book Now
         </button>
       </form>
     </div>

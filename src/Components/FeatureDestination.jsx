@@ -61,15 +61,15 @@ const FeatureDestination = () => {
   };
 
   const destinations = [
-    { name: 'Bali', img: Bali, time: '5 Days - 4 Nights', star: '3 (124 reviews)', price: '69,999' },
-    { name: 'Disneyland', img: Disneyland, time: '3 Days - 2 Nights', star: '4 (121 reviews)', price: '79,999' },
-    { name: 'Greece', img: Greece, time: '6 Days - 5 Nights', star: '5 (103 reviews)', price: '99,999' },
-    { name: 'India', img: India, time: '5 Days - 4 Nights', star: '3 (92 reviews)', price: '69,999' },
-    { name: 'Paris', img: Paris, time: '5 Days - 4 Nights', star: '4 (89 reviews)', price: '89,999' },
-    { name: 'Spain', img: Spain, time: '6 Days - 5 Nights', star: '5 (99 reviews)', price: '95,999' },
-    { name: 'Tokyo', img: Tokyo, time: '5 Days - 4 Nights', star: '4 (75 reviews)', price: '85,999' },
-    { name: 'Tomorrowland', img: Tomorrowland, time: '2 Days - 1 Night', star: '5 (88 reviews)', price: '120,999' },
-    { name: 'Venice', img: Venice, time: '5 Days - 4 Nights', star: '3 (82 reviews)', price: '69,999' },
+    { name: 'Bali', img: Bali, time: '5 Days - 4 Nights', star: '3.5 (123 reviews)', price: '69,999' },
+    { name: 'Disneyland', img: Disneyland, time: '6 Days - 5 Nights', star: '4.8 (92 reviews)', price: '79,999' },
+    { name: 'Greece', img: Greece, time: '5 Days - 4 Nights', star: '3.6 (88 reviews)', price: '99,999' },
+    { name: 'India', img: India, time: '5 Days - 4 Nights', star: '4.3 (77 reviews)', price: '69,999' },
+    { name: 'Paris', img: Paris, time: '5 Days - 4 Nights', star: '4.9 (72 reviews)', price: '89,999' },
+    { name: 'Spain', img: Spain, time: '5 Days - 4 Nights', star: '5.0 (66 reviews)', price: '95,999' },
+    { name: 'Tokyo', img: Tokyo, time: '5 Days - 4 Nights', star: '3.8 (55 reviews)', price: '85,999' },
+    { name: 'Tomorrowland', img: Tomorrowland, time: '7 Days - 6 Night', star: '5.0 (68 reviews)', price: '120,999' },
+    { name: 'Venice', img: Venice, time: '5 Days - 4 Nights', star: '4.4 (48 reviews)', price: '69,999' },
   ];
 
   return (
